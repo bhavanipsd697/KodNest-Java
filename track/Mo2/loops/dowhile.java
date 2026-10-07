@@ -68,3 +68,29 @@ class Onemor2{
             System.out.println("login successful"); 
     }
 }
+class Do_for{
+    public static void main(String[] args) {
+        int i = 1;
+        do { 
+            for(int j = 1;j<=5;j++){
+                System.out.println(j);
+            }
+            i++;
+            System.out.println();
+        } while(i<=5);
+    }
+}
+class do_while{
+    public static void main(String[] args) {
+        int i =1;
+        do {
+            int j =1;
+            while(j<=5){
+                System.out.println(j);
+                j++;
+            }
+            i++;
+            System.out.println();
+        } while (i<=5);
+    }
+}
