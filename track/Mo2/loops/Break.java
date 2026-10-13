@@ -9,3 +9,15 @@ class Break{
         }
     }
 }
+// here we can print last number also
+class Lastp{
+    public static void main(String[]args){
+        for(int i =0;i <=10;i++){
+            System.out.println(i);// first it will print the value and checks the comdition..
+            if(i ==5){
+                System.out.println("ncompleted");
+                break;
+            }
+        }
+    }
+}
