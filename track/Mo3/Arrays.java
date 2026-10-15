@@ -1,4 +1,4 @@
-import java.util.Scanner;
+ import java.util.Scanner;
 public class Arrays {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
@@ -16,7 +16,7 @@ public class Arrays {
 // reverse order
 class reverseorder{
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in); 
         int b[] = new int[5];
         System.out.println("Enter array element: ");
         for(int i = 0;i <b.length; i++){
