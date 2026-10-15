@@ -19,3 +19,22 @@ class Example1{
         }
     }
 }
+// once in all
+class All{
+    public static void main(String[] args) {
+        Scanner chinnu =new Scanner(System.in);
+        System.out.println("Enter the name :");
+        String name = chinnu.nextLine();
+        System.out.println("my name is :"+ name);
+        System.out.println("Enter the age :");
+        int age  = chinnu.nextInt();
+        System.out.println("my age is :" + age);
+        System.out.println("Enter ur height :");
+        Double height = chinnu.nextDouble();
+        System.out.println("u r height is :"+ height);
+        System.out.println("enter the percentage :");
+        float percentage = chinnu.nextFloat();
+        System.out.println("u r percentage is :"+ percentage);
+
+    }
+}
